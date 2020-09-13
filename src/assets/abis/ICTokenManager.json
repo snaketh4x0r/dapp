@@ -89,20 +89,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/interfaces/ICTokenManager.sol",
     "exportedSymbols": {
-      "ICTokenManager": [
-        8997
-      ]
+      "ICTokenManager": [8997]
     },
     "id": 8998,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8971,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:11"
       },
@@ -113,9 +107,7 @@
         "documentation": "@title CTokenManager Interface\n@author Sablier",
         "fullyImplemented": false,
         "id": 8997,
-        "linearizedBaseContracts": [
-          8997
-        ],
+        "linearizedBaseContracts": [8997],
         "name": "ICTokenManager",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -407,20 +399,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/interfaces/ICTokenManager.sol",
     "exportedSymbols": {
-      "ICTokenManager": [
-        8997
-      ]
+      "ICTokenManager": [8997]
     },
     "id": 8998,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8971,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:11"
       },
@@ -431,9 +417,7 @@
         "documentation": "@title CTokenManager Interface\n@author Sablier",
         "fullyImplemented": false,
         "id": 8997,
-        "linearizedBaseContracts": [
-          8997
-        ],
+        "linearizedBaseContracts": [8997],
         "name": "ICTokenManager",
         "nodeType": "ContractDefinition",
         "nodes": [

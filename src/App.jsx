@@ -1,9 +1,9 @@
 import React from 'react';
-import { Router, Route, Switch, Redirect } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { ToastContainer } from 'react-toastify';
-import { history } from './helpers';
-import { web3Actions } from './actions';
+import {Router, Route, Switch, Redirect} from 'react-router-dom';
+import {connect} from 'react-redux';
+import {ToastContainer} from 'react-toastify';
+import {history} from './helpers';
+import {web3Actions} from './actions';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -68,8 +68,8 @@ class App extends React.Component {
 }
 
 function mapState(state) {
-  const { web3, connected } = state.web3;
-  return { web3, connected };
+  const {web3, connected} = state.web3;
+  return {web3, connected};
 }
 
 const actionCreators = {

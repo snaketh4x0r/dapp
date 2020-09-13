@@ -1,26 +1,26 @@
-import React from "react";
-import { connect } from "react-redux";
-import ThreadTest from "../components/ThreadTest";
-import "../assets/scss/threadPage.scss";
+import React from 'react';
+import {connect} from 'react-redux';
+import ThreadTest from '../components/ThreadTest';
+import '../assets/scss/threadPage.scss';
 
 class ThreadPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+  constructor(props) {
+    super(props);
+  }
 
-    render() {
-        return (
-            <div className="threadPage">
-                <div className="threadPageInner">
-                    <ThreadTest />
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="threadPage">
+        <div className="threadPageInner">
+          <ThreadTest />
+        </div>
+      </div>
+    );
+  }
 }
 
 function mapState(state) {
-    return {};
+  return {};
 }
 
 const actionCreators = {};

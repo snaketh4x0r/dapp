@@ -35,8 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ignore-path .gitignore \"./**/*.{ts,tsx,js,jsx}\" --fix",
-    "format": "prettier --ignore-path .gitignore --write \"{*,**/*}.{ts,tsx,js,jsx,json,yml,yaml,md}\""
+    "lint": "eslint --ignore-path .gitignore \"./**/*.{js,jsx}\" --fix",
+    "format": "prettier --ignore-path .gitignore --write \"{*,**/*}.{js,jsx,json,yml,yaml,md}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -54,6 +54,17 @@
     ]
   },
   "devDependencies": {
+    "husky": "^4.3.0",
+    "lint-staged": "^10.3.0",
     "normalize-scss": "^7.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --fix",
+    "*.{js,jsx,json,yml,yaml,md}": "prettier --write"
   }
 }

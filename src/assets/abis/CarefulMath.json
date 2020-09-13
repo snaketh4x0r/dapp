@@ -11,21 +11,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/compound/CarefulMath.sol",
     "exportedSymbols": {
-      "CarefulMath": [
-        8216
-      ]
+      "CarefulMath": [8216]
     },
     "id": 8217,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8033,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".8"
-        ],
+        "literals": ["solidity", "^", "0.5", ".8"],
         "nodeType": "PragmaDirective",
         "src": "0:23:7"
       },
@@ -36,9 +29,7 @@
         "documentation": "@title Careful Math\n@author Compound\n@notice Derived from OpenZeppelin's SafeMath library\n        https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol",
         "fullyImplemented": true,
         "id": 8216,
-        "linearizedBaseContracts": [
-          8216
-        ],
+        "linearizedBaseContracts": [8216],
         "name": "CarefulMath",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -215,9 +206,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8060
-                  ],
+                  "assignments": [8060],
                   "declarations": [
                     {
                       "constant": false,
@@ -1411,9 +1400,7 @@
               "src": "1685:177:7",
               "statements": [
                 {
-                  "assignments": [
-                    8155
-                  ],
+                  "assignments": [8155],
                   "declarations": [
                     {
                       "constant": false,
@@ -1832,10 +1819,7 @@
               "src": "2014:175:7",
               "statements": [
                 {
-                  "assignments": [
-                    8191,
-                    8193
-                  ],
+                  "assignments": [8191, 8193],
                   "declarations": [
                     {
                       "constant": false,
@@ -2333,21 +2317,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/compound/CarefulMath.sol",
     "exportedSymbols": {
-      "CarefulMath": [
-        8216
-      ]
+      "CarefulMath": [8216]
     },
     "id": 8217,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8033,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".8"
-        ],
+        "literals": ["solidity", "^", "0.5", ".8"],
         "nodeType": "PragmaDirective",
         "src": "0:23:7"
       },
@@ -2358,9 +2335,7 @@
         "documentation": "@title Careful Math\n@author Compound\n@notice Derived from OpenZeppelin's SafeMath library\n        https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol",
         "fullyImplemented": true,
         "id": 8216,
-        "linearizedBaseContracts": [
-          8216
-        ],
+        "linearizedBaseContracts": [8216],
         "name": "CarefulMath",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -2537,9 +2512,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8060
-                  ],
+                  "assignments": [8060],
                   "declarations": [
                     {
                       "constant": false,
@@ -3733,9 +3706,7 @@
               "src": "1685:177:7",
               "statements": [
                 {
-                  "assignments": [
-                    8155
-                  ],
+                  "assignments": [8155],
                   "declarations": [
                     {
                       "constant": false,
@@ -4154,10 +4125,7 @@
               "src": "2014:175:7",
               "statements": [
                 {
-                  "assignments": [
-                    8191,
-                    8193
-                  ],
+                  "assignments": [8191, 8193],
                   "declarations": [
                     {
                       "constant": false,

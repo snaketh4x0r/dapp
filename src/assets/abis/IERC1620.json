@@ -293,20 +293,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/interfaces/IERC1620.sol",
     "exportedSymbols": {
-      "IERC1620": [
-        9097
-      ]
+      "IERC1620": [9097]
     },
     "id": 9098,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8999,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:12"
       },
@@ -317,9 +311,7 @@
         "documentation": "@title ERC-1620 Money Streaming Standard\n@author Paul Razvan Berg - <paul@sablier.app>\n@dev See https://eips.ethereum.org/EIPS/eip-1620",
         "fullyImplemented": false,
         "id": 9097,
-        "linearizedBaseContracts": [
-          9097
-        ],
+        "linearizedBaseContracts": [9097],
         "name": "IERC1620",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1538,20 +1530,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/interfaces/IERC1620.sol",
     "exportedSymbols": {
-      "IERC1620": [
-        9097
-      ]
+      "IERC1620": [9097]
     },
     "id": 9098,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8999,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:12"
       },
@@ -1562,9 +1548,7 @@
         "documentation": "@title ERC-1620 Money Streaming Standard\n@author Paul Razvan Berg - <paul@sablier.app>\n@dev See https://eips.ethereum.org/EIPS/eip-1620",
         "fullyImplemented": false,
         "id": 9097,
-        "linearizedBaseContracts": [
-          9097
-        ],
+        "linearizedBaseContracts": [9097],
         "name": "IERC1620",
         "nodeType": "ContractDefinition",
         "nodes": [

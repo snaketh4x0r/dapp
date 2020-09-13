@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import config from '../config';
-import { connect } from 'react-redux';
-import { userActions } from '../actions';
-import { getTokenSymbol } from '../helpers';
+import {connect} from 'react-redux';
+import {userActions} from '../actions';
+import {getTokenSymbol} from '../helpers';
 import '../assets/scss/updateSubscriptionInfo.scss';
 
 const UpdateSubscription = ({
   getSubscriptionInfo,
   updateSubscriptionInfo,
   disableSubscriptionInfo,
-  data: { subscription },
+  data: {subscription},
 }) => {
   const defaultAsset = config.priceAssets[0].address;
   const [asset, setAsset] = useState(defaultAsset);
@@ -19,7 +19,7 @@ const UpdateSubscription = ({
 
   useEffect(() => {
     getSubscriptionInfo();
-  }, []);
+  }, [getSubscriptionInfo]);
   useEffect(() => {
     if (subscription && subscription.isEnabled) {
       setAsset(subscription.tokenAddress);
@@ -135,8 +135,8 @@ const UpdateSubscription = ({
 };
 
 function mapState(state) {
-  const { data } = state.user;
-  return { data };
+  const {data} = state.user;
+  return {data};
 }
 
 const actionCreators = {

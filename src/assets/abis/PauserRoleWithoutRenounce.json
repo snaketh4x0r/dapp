@@ -89,21 +89,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/lifecycle/PauserRoleWithoutRenounce.sol",
     "exportedSymbols": {
-      "PauserRoleWithoutRenounce": [
-        9415
-      ]
+      "PauserRoleWithoutRenounce": [9415]
     },
     "id": 9416,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 9303,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:15"
       },
@@ -179,19 +172,12 @@
             "src": "702:7:15"
           }
         ],
-        "contractDependencies": [
-          9442,
-          9901
-        ],
+        "contractDependencies": [9442, 9901],
         "contractKind": "contract",
         "documentation": "@title PauserRoleWithoutRenounce\n@author Sablier\n@notice Fork of OpenZeppelin's PauserRole, but with the `renouncePauser` function removed to avoid fat-finger errors.\n We inherit from `Context` to keep this contract compatible with the Gas Station Network.\nSee https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/blob/master/contracts/access/roles/PauserRole.sol",
         "fullyImplemented": true,
         "id": 9415,
-        "linearizedBaseContracts": [
-          9415,
-          9442,
-          9901
-        ],
+        "linearizedBaseContracts": [9415, 9442, 9901],
         "name": "PauserRoleWithoutRenounce",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -660,10 +646,7 @@
                       "id": 9343,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1057:7:15",
                       "typeDescriptions": {
@@ -1436,21 +1419,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/lifecycle/PauserRoleWithoutRenounce.sol",
     "exportedSymbols": {
-      "PauserRoleWithoutRenounce": [
-        9415
-      ]
+      "PauserRoleWithoutRenounce": [9415]
     },
     "id": 9416,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 9303,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.5", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:15"
       },
@@ -1526,19 +1502,12 @@
             "src": "702:7:15"
           }
         ],
-        "contractDependencies": [
-          9442,
-          9901
-        ],
+        "contractDependencies": [9442, 9901],
         "contractKind": "contract",
         "documentation": "@title PauserRoleWithoutRenounce\n@author Sablier\n@notice Fork of OpenZeppelin's PauserRole, but with the `renouncePauser` function removed to avoid fat-finger errors.\n We inherit from `Context` to keep this contract compatible with the Gas Station Network.\nSee https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/blob/master/contracts/access/roles/PauserRole.sol",
         "fullyImplemented": true,
         "id": 9415,
-        "linearizedBaseContracts": [
-          9415,
-          9442,
-          9901
-        ],
+        "linearizedBaseContracts": [9415, 9442, 9901],
         "name": "PauserRoleWithoutRenounce",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -2007,10 +1976,7 @@
                       "id": 9343,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1057:7:15",
                       "typeDescriptions": {

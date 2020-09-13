@@ -230,20 +230,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/interfaces/ICERC20.sol",
     "exportedSymbols": {
-      "ICERC20": [
-        8969
-      ]
+      "ICERC20": [8969]
     },
     "id": 8970,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8894,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:10"
       },
@@ -254,9 +248,7 @@
         "documentation": "@title CERC20 interface\n@author Sablier\n@dev See https://compound.finance/developers",
         "fullyImplemented": false,
         "id": 8969,
-        "linearizedBaseContracts": [
-          8969
-        ],
+        "linearizedBaseContracts": [8969],
         "name": "ICERC20",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1136,20 +1128,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/interfaces/ICERC20.sol",
     "exportedSymbols": {
-      "ICERC20": [
-        8969
-      ]
+      "ICERC20": [8969]
     },
     "id": 8970,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8894,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:10"
       },
@@ -1160,9 +1146,7 @@
         "documentation": "@title CERC20 interface\n@author Sablier\n@dev See https://compound.finance/developers",
         "fullyImplemented": false,
         "id": 8969,
-        "linearizedBaseContracts": [
-          8969
-        ],
+        "linearizedBaseContracts": [8969],
         "name": "ICERC20",
         "nodeType": "ContractDefinition",
         "nodes": [

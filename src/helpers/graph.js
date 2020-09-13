@@ -1,4 +1,4 @@
-import web3 from "web3";
+import web3 from 'web3';
 
 export const allFilesQuery = `query {
   files {
@@ -14,8 +14,8 @@ export const allFilesQuery = `query {
 }`;
 
 export const fileQuery = fileId => {
-    const hex = web3.utils.toHex(fileId);
-    return `query {
+  const hex = web3.utils.toHex(fileId);
+  return `query {
       file(id: "${hex}") {
         id
         metadataHash
@@ -33,9 +33,9 @@ export const fileQuery = fileId => {
 };
 
 export const fileAndUserQuery = (fileId, user) => {
-    const hex = web3.utils.toHex(fileId);
-    if (user) {
-        return `query {
+  const hex = web3.utils.toHex(fileId);
+  if (user) {
+    return `query {
           file(id: "${hex}") {
             id
             metadataHash
@@ -58,12 +58,12 @@ export const fileAndUserQuery = (fileId, user) => {
             }
           }  
         }`;
-    }
-    return fileQuery(fileId);
+  }
+  return fileQuery(fileId);
 };
 
 export const userOwnedFilesQuery = address => {
-    return `query {
+  return `query {
       user(id: "${address.toLowerCase()}") {
         id
         filesOwned {
@@ -81,7 +81,7 @@ export const userOwnedFilesQuery = address => {
 };
 
 export const userBoughtFilesQuery = address => {
-    return `query {
+  return `query {
       user(id: "${address.toLowerCase()}") {
         id
         filesBought {
@@ -99,7 +99,7 @@ export const userBoughtFilesQuery = address => {
 };
 
 export const userProfileQuery = (user, seller) => {
-    return `query {
+  return `query {
       user: user(id: "${user.toLowerCase()}") {
         address
         subscriptions {
@@ -128,7 +128,7 @@ export const userProfileQuery = (user, seller) => {
 };
 
 export const userSubscriptionsQuery = address => {
-    return `query {
+  return `query {
       user(id: "${address.toLowerCase()}") {
         id
         isEnabled
@@ -155,7 +155,7 @@ export const userSubscriptionsQuery = address => {
 };
 
 export const userSubscribersQuery = address => {
-    return `query {
+  return `query {
       user(id: "${address.toLowerCase()}") {
         id
         subscribers {
@@ -181,8 +181,8 @@ export const userSubscribersQuery = address => {
 };
 
 export const fileandSubQuery = (fileId, address) => {
-    const hex = web3.utils.toHex(fileId);
-    return `query {
+  const hex = web3.utils.toHex(fileId);
+  return `query {
 	      file(id: "${hex}") {
             id
             metadataHash

@@ -1,24 +1,24 @@
-import { alertConstants } from "../constants";
-import { toast } from "react-toastify";
+import {alertConstants} from '../constants';
+import {toast} from 'react-toastify';
 
 export const alertActions = {
-    success,
-    error
+  success,
+  error,
 };
 
 function success(message) {
-    toast.success(message, {
-        position: toast.POSITION.BOTTOM_RIGHT,
-        className: "alert"
-    });
+  toast.success(message, {
+    position: toast.POSITION.BOTTOM_RIGHT,
+    className: 'alert',
+  });
 
-    return { type: alertConstants.SUCCESS, message };
+  return {type: alertConstants.SUCCESS, message};
 }
 
 function error(message) {
-    toast.error(message, {
-        position: toast.POSITION.BOTTOM_RIGHT,
-        className: "alert"
-    });
-    return { type: alertConstants.ERROR, message };
+  toast.error(message, {
+    position: toast.POSITION.BOTTOM_RIGHT,
+    className: 'alert',
+  });
+  return {type: alertConstants.ERROR, message};
 }

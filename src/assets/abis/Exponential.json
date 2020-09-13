@@ -11,21 +11,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/compound/Exponential.sol",
     "exportedSymbols": {
-      "Exponential": [
-        8892
-      ]
+      "Exponential": [8892]
     },
     "id": 8893,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8287,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".8"
-        ],
+        "literals": ["solidity", "^", "0.5", ".8"],
         "nodeType": "PragmaDirective",
         "src": "0:23:9"
       },
@@ -61,17 +54,12 @@
             "src": "402:11:9"
           }
         ],
-        "contractDependencies": [
-          8216
-        ],
+        "contractDependencies": [8216],
         "contractKind": "contract",
         "documentation": "@title Exponential module for storing fixed-decision decimals\n@author Compound\n@notice Exp is a struct which stores decimals with a fixed precision of 18 decimal places.\n        Thus, if we wanted to store the 5.1, mantissa would store 5.1e18. That is:\n        `Exp({mantissa: 5100000000000000000})`.",
         "fullyImplemented": true,
         "id": 8892,
-        "linearizedBaseContracts": [
-          8892,
-          8216
-        ],
+        "linearizedBaseContracts": [8892, 8216],
         "name": "Exponential",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -275,10 +263,7 @@
               "src": "870:419:9",
               "statements": [
                 {
-                  "assignments": [
-                    8316,
-                    8318
-                  ],
+                  "assignments": [8316, 8318],
                   "declarations": [
                     {
                       "constant": false,
@@ -539,9 +524,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "1013:18:9",
                               "typeDescriptions": {
@@ -572,10 +555,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8337,
-                    8339
-                  ],
+                  "assignments": [8337, 8339],
                   "declarations": [
                     {
                       "constant": false,
@@ -836,9 +816,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "1188:18:9",
                               "typeDescriptions": {
@@ -942,9 +920,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "1256:25:9",
                         "typeDescriptions": {
@@ -1115,10 +1091,7 @@
               "src": "1465:131:9",
               "statements": [
                 {
-                  "assignments": [
-                    8377,
-                    8379
-                  ],
+                  "assignments": [8377, 8379],
                   "declarations": [
                     {
                       "constant": false,
@@ -1335,9 +1308,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "1565:23:9",
                         "typeDescriptions": {
@@ -1512,10 +1483,7 @@
               "src": "1777:131:9",
               "statements": [
                 {
-                  "assignments": [
-                    8406,
-                    8408
-                  ],
+                  "assignments": [8406, 8408],
                   "declarations": [
                     {
                       "constant": false,
@@ -1732,9 +1700,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "1877:23:9",
                         "typeDescriptions": {
@@ -1909,10 +1875,7 @@
               "src": "2084:254:9",
               "statements": [
                 {
-                  "assignments": [
-                    8435,
-                    8437
-                  ],
+                  "assignments": [8435, 8437],
                   "declarations": [
                     {
                       "constant": false,
@@ -2189,9 +2152,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "2231:18:9",
                               "typeDescriptions": {
@@ -2295,9 +2256,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "2299:31:9",
                         "typeDescriptions": {
@@ -2470,10 +2429,7 @@
               "src": "2540:212:9",
               "statements": [
                 {
-                  "assignments": [
-                    8476,
-                    8478
-                  ],
+                  "assignments": [8476, 8478],
                   "declarations": [
                     {
                       "constant": false,
@@ -2975,10 +2931,7 @@
               "src": "3006:207:9",
               "statements": [
                 {
-                  "assignments": [
-                    8516,
-                    8518
-                  ],
+                  "assignments": [8516, 8518],
                   "declarations": [
                     {
                       "constant": false,
@@ -3513,10 +3466,7 @@
               "src": "3387:258:9",
               "statements": [
                 {
-                  "assignments": [
-                    8554,
-                    8556
-                  ],
+                  "assignments": [8554, 8556],
                   "declarations": [
                     {
                       "constant": false,
@@ -3793,9 +3743,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "3536:18:9",
                               "typeDescriptions": {
@@ -3899,9 +3847,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "3604:33:9",
                         "typeDescriptions": {
@@ -4074,10 +4020,7 @@
               "src": "3830:502:9",
               "statements": [
                 {
-                  "assignments": [
-                    8595,
-                    8597
-                  ],
+                  "assignments": [8595, 8597],
                   "declarations": [
                     {
                       "constant": false,
@@ -4338,9 +4281,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "4244:18:9",
                               "typeDescriptions": {
@@ -4604,10 +4545,7 @@
               "src": "4543:225:9",
               "statements": [
                 {
-                  "assignments": [
-                    8634,
-                    8636
-                  ],
+                  "assignments": [8634, 8636],
                   "declarations": [
                     {
                       "constant": false,
@@ -5109,10 +5047,7 @@
               "src": "4950:1026:9",
               "statements": [
                 {
-                  "assignments": [
-                    8672,
-                    8674
-                  ],
+                  "assignments": [8672, 8674],
                   "declarations": [
                     {
                       "constant": false,
@@ -5405,9 +5340,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "5107:18:9",
                               "typeDescriptions": {
@@ -5438,10 +5371,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8695,
-                    8697
-                  ],
+                  "assignments": [8695, 8697],
                   "declarations": [
                     {
                       "constant": false,
@@ -5702,9 +5632,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "5618:18:9",
                               "typeDescriptions": {
@@ -5735,10 +5663,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8716,
-                    8718
-                  ],
+                  "assignments": [8716, 8718],
                   "declarations": [
                     {
                       "constant": false,
@@ -6041,9 +5966,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "5944:24:9",
                         "typeDescriptions": {
@@ -6262,9 +6185,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "6192:18:9",
                         "typeDescriptions": {
@@ -6313,9 +6234,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "6212:18:9",
                         "typeDescriptions": {
@@ -6338,10 +6257,7 @@
                       "id": 8750,
                       "name": "mulExp",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        8739,
-                        8760
-                      ],
+                      "overloadedDeclarations": [8739, 8760],
                       "referencedDeclaration": 8739,
                       "src": "6185:6:9",
                       "typeDescriptions": {
@@ -6512,10 +6428,7 @@
               "src": "6437:173:9",
               "statements": [
                 {
-                  "assignments": [
-                    8774,
-                    8776
-                  ],
+                  "assignments": [8774, 8776],
                   "declarations": [
                     {
                       "constant": false,
@@ -6619,10 +6532,7 @@
                       "id": 8777,
                       "name": "mulExp",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        8739,
-                        8760
-                      ],
+                      "overloadedDeclarations": [8739, 8760],
                       "referencedDeclaration": 8739,
                       "src": "6480:6:9",
                       "typeDescriptions": {
@@ -6815,10 +6725,7 @@
                       "id": 8792,
                       "name": "mulExp",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        8739,
-                        8760
-                      ],
+                      "overloadedDeclarations": [8739, 8760],
                       "referencedDeclaration": 8739,
                       "src": "6590:6:9",
                       "typeDescriptions": {
@@ -8192,21 +8099,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/compound/Exponential.sol",
     "exportedSymbols": {
-      "Exponential": [
-        8892
-      ]
+      "Exponential": [8892]
     },
     "id": 8893,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8287,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".8"
-        ],
+        "literals": ["solidity", "^", "0.5", ".8"],
         "nodeType": "PragmaDirective",
         "src": "0:23:9"
       },
@@ -8242,17 +8142,12 @@
             "src": "402:11:9"
           }
         ],
-        "contractDependencies": [
-          8216
-        ],
+        "contractDependencies": [8216],
         "contractKind": "contract",
         "documentation": "@title Exponential module for storing fixed-decision decimals\n@author Compound\n@notice Exp is a struct which stores decimals with a fixed precision of 18 decimal places.\n        Thus, if we wanted to store the 5.1, mantissa would store 5.1e18. That is:\n        `Exp({mantissa: 5100000000000000000})`.",
         "fullyImplemented": true,
         "id": 8892,
-        "linearizedBaseContracts": [
-          8892,
-          8216
-        ],
+        "linearizedBaseContracts": [8892, 8216],
         "name": "Exponential",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -8456,10 +8351,7 @@
               "src": "870:419:9",
               "statements": [
                 {
-                  "assignments": [
-                    8316,
-                    8318
-                  ],
+                  "assignments": [8316, 8318],
                   "declarations": [
                     {
                       "constant": false,
@@ -8720,9 +8612,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "1013:18:9",
                               "typeDescriptions": {
@@ -8753,10 +8643,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8337,
-                    8339
-                  ],
+                  "assignments": [8337, 8339],
                   "declarations": [
                     {
                       "constant": false,
@@ -9017,9 +8904,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "1188:18:9",
                               "typeDescriptions": {
@@ -9123,9 +9008,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "1256:25:9",
                         "typeDescriptions": {
@@ -9296,10 +9179,7 @@
               "src": "1465:131:9",
               "statements": [
                 {
-                  "assignments": [
-                    8377,
-                    8379
-                  ],
+                  "assignments": [8377, 8379],
                   "declarations": [
                     {
                       "constant": false,
@@ -9516,9 +9396,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "1565:23:9",
                         "typeDescriptions": {
@@ -9693,10 +9571,7 @@
               "src": "1777:131:9",
               "statements": [
                 {
-                  "assignments": [
-                    8406,
-                    8408
-                  ],
+                  "assignments": [8406, 8408],
                   "declarations": [
                     {
                       "constant": false,
@@ -9913,9 +9788,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "1877:23:9",
                         "typeDescriptions": {
@@ -10090,10 +9963,7 @@
               "src": "2084:254:9",
               "statements": [
                 {
-                  "assignments": [
-                    8435,
-                    8437
-                  ],
+                  "assignments": [8435, 8437],
                   "declarations": [
                     {
                       "constant": false,
@@ -10370,9 +10240,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "2231:18:9",
                               "typeDescriptions": {
@@ -10476,9 +10344,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "2299:31:9",
                         "typeDescriptions": {
@@ -10651,10 +10517,7 @@
               "src": "2540:212:9",
               "statements": [
                 {
-                  "assignments": [
-                    8476,
-                    8478
-                  ],
+                  "assignments": [8476, 8478],
                   "declarations": [
                     {
                       "constant": false,
@@ -11156,10 +11019,7 @@
               "src": "3006:207:9",
               "statements": [
                 {
-                  "assignments": [
-                    8516,
-                    8518
-                  ],
+                  "assignments": [8516, 8518],
                   "declarations": [
                     {
                       "constant": false,
@@ -11694,10 +11554,7 @@
               "src": "3387:258:9",
               "statements": [
                 {
-                  "assignments": [
-                    8554,
-                    8556
-                  ],
+                  "assignments": [8554, 8556],
                   "declarations": [
                     {
                       "constant": false,
@@ -11974,9 +11831,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "3536:18:9",
                               "typeDescriptions": {
@@ -12080,9 +11935,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "3604:33:9",
                         "typeDescriptions": {
@@ -12255,10 +12108,7 @@
               "src": "3830:502:9",
               "statements": [
                 {
-                  "assignments": [
-                    8595,
-                    8597
-                  ],
+                  "assignments": [8595, 8597],
                   "declarations": [
                     {
                       "constant": false,
@@ -12519,9 +12369,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "4244:18:9",
                               "typeDescriptions": {
@@ -12785,10 +12633,7 @@
               "src": "4543:225:9",
               "statements": [
                 {
-                  "assignments": [
-                    8634,
-                    8636
-                  ],
+                  "assignments": [8634, 8636],
                   "declarations": [
                     {
                       "constant": false,
@@ -13290,10 +13135,7 @@
               "src": "4950:1026:9",
               "statements": [
                 {
-                  "assignments": [
-                    8672,
-                    8674
-                  ],
+                  "assignments": [8672, 8674],
                   "declarations": [
                     {
                       "constant": false,
@@ -13586,9 +13428,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "5107:18:9",
                               "typeDescriptions": {
@@ -13619,10 +13459,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8695,
-                    8697
-                  ],
+                  "assignments": [8695, 8697],
                   "declarations": [
                     {
                       "constant": false,
@@ -13883,9 +13720,7 @@
                               "isPure": true,
                               "kind": "structConstructorCall",
                               "lValueRequested": false,
-                              "names": [
-                                "mantissa"
-                              ],
+                              "names": ["mantissa"],
                               "nodeType": "FunctionCall",
                               "src": "5618:18:9",
                               "typeDescriptions": {
@@ -13916,10 +13751,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    8716,
-                    8718
-                  ],
+                  "assignments": [8716, 8718],
                   "declarations": [
                     {
                       "constant": false,
@@ -14222,9 +14054,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "5944:24:9",
                         "typeDescriptions": {
@@ -14443,9 +14273,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "6192:18:9",
                         "typeDescriptions": {
@@ -14494,9 +14322,7 @@
                         "isPure": false,
                         "kind": "structConstructorCall",
                         "lValueRequested": false,
-                        "names": [
-                          "mantissa"
-                        ],
+                        "names": ["mantissa"],
                         "nodeType": "FunctionCall",
                         "src": "6212:18:9",
                         "typeDescriptions": {
@@ -14519,10 +14345,7 @@
                       "id": 8750,
                       "name": "mulExp",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        8739,
-                        8760
-                      ],
+                      "overloadedDeclarations": [8739, 8760],
                       "referencedDeclaration": 8739,
                       "src": "6185:6:9",
                       "typeDescriptions": {
@@ -14693,10 +14516,7 @@
               "src": "6437:173:9",
               "statements": [
                 {
-                  "assignments": [
-                    8774,
-                    8776
-                  ],
+                  "assignments": [8774, 8776],
                   "declarations": [
                     {
                       "constant": false,
@@ -14800,10 +14620,7 @@
                       "id": 8777,
                       "name": "mulExp",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        8739,
-                        8760
-                      ],
+                      "overloadedDeclarations": [8739, 8760],
                       "referencedDeclaration": 8739,
                       "src": "6480:6:9",
                       "typeDescriptions": {
@@ -14996,10 +14813,7 @@
                       "id": 8792,
                       "name": "mulExp",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        8739,
-                        8760
-                      ],
+                      "overloadedDeclarations": [8739, 8760],
                       "referencedDeclaration": 8739,
                       "src": "6590:6:9",
                       "typeDescriptions": {

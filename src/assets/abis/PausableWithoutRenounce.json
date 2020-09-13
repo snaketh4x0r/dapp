@@ -148,20 +148,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/lifecycle/PausableWithoutRenounce.sol",
     "exportedSymbols": {
-      "PausableWithoutRenounce": [
-        9301
-      ]
+      "PausableWithoutRenounce": [9301]
     },
     "id": 9302,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 9202,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:14"
       },
@@ -255,21 +249,12 @@
             "src": "881:25:14"
           }
         ],
-        "contractDependencies": [
-          9415,
-          9442,
-          9901
-        ],
+        "contractDependencies": [9415, 9442, 9901],
         "contractKind": "contract",
         "documentation": "@title PausableWithoutRenounce\n@author Sablier\n@notice Fork of OpenZeppelin's Pausable, a contract module which allows children to implement an\n emergency stop mechanism that can be triggered by an authorized account, but with the `renouncePauser`\n function removed to avoid fat-finger errors.\n We inherit from `Context` to keep this contract compatible with the Gas Station Network.\nSee https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/blob/master/contracts/lifecycle/Pausable.sol\nSee https://docs.openzeppelin.com/contracts/2.x/gsn#_msg_sender_and_msg_data",
         "fullyImplemented": true,
         "id": 9301,
-        "linearizedBaseContracts": [
-          9301,
-          9415,
-          9442,
-          9901
-        ],
+        "linearizedBaseContracts": [9301, 9415, 9442, 9901],
         "name": "PausableWithoutRenounce",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -738,10 +723,7 @@
                       "id": 9249,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1765:7:14",
                       "typeDescriptions": {
@@ -843,10 +825,7 @@
                       "id": 9259,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1957:7:14",
                       "typeDescriptions": {
@@ -1290,20 +1269,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/lifecycle/PausableWithoutRenounce.sol",
     "exportedSymbols": {
-      "PausableWithoutRenounce": [
-        9301
-      ]
+      "PausableWithoutRenounce": [9301]
     },
     "id": 9302,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 9202,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:14"
       },
@@ -1397,21 +1370,12 @@
             "src": "881:25:14"
           }
         ],
-        "contractDependencies": [
-          9415,
-          9442,
-          9901
-        ],
+        "contractDependencies": [9415, 9442, 9901],
         "contractKind": "contract",
         "documentation": "@title PausableWithoutRenounce\n@author Sablier\n@notice Fork of OpenZeppelin's Pausable, a contract module which allows children to implement an\n emergency stop mechanism that can be triggered by an authorized account, but with the `renouncePauser`\n function removed to avoid fat-finger errors.\n We inherit from `Context` to keep this contract compatible with the Gas Station Network.\nSee https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/blob/master/contracts/lifecycle/Pausable.sol\nSee https://docs.openzeppelin.com/contracts/2.x/gsn#_msg_sender_and_msg_data",
         "fullyImplemented": true,
         "id": 9301,
-        "linearizedBaseContracts": [
-          9301,
-          9415,
-          9442,
-          9901
-        ],
+        "linearizedBaseContracts": [9301, 9415, 9442, 9901],
         "name": "PausableWithoutRenounce",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1880,10 +1844,7 @@
                       "id": 9249,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1765:7:14",
                       "typeDescriptions": {
@@ -1985,10 +1946,7 @@
                       "id": 9259,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1957:7:14",
                       "typeDescriptions": {

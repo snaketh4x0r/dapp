@@ -174,20 +174,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/CTokenManager.sol",
     "exportedSymbols": {
-      "CTokenManager": [
-        5858
-      ]
+      "CTokenManager": [5858]
     },
     "id": 5859,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 5763,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:4"
       },
@@ -263,23 +257,12 @@
             "src": "245:22:4"
           }
         ],
-        "contractDependencies": [
-          8997,
-          9200,
-          9442,
-          9901
-        ],
+        "contractDependencies": [8997, 9200, 9442, 9901],
         "contractKind": "contract",
         "documentation": "@title CTokenManager\n@author Sablier",
         "fullyImplemented": true,
         "id": 5858,
-        "linearizedBaseContracts": [
-          5858,
-          9200,
-          9442,
-          9901,
-          8997
-        ],
+        "linearizedBaseContracts": [5858, 9200, 9442, 9901, 8997],
         "name": "CTokenManager",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -555,10 +538,7 @@
                       "id": 5792,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "968:7:4",
                       "typeDescriptions": {
@@ -703,10 +683,7 @@
                       "id": 5800,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1035:7:4",
                       "typeDescriptions": {
@@ -1031,10 +1008,7 @@
                       "id": 5827,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1517:7:4",
                       "typeDescriptions": {
@@ -1411,20 +1385,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/CTokenManager.sol",
     "exportedSymbols": {
-      "CTokenManager": [
-        5858
-      ]
+      "CTokenManager": [5858]
     },
     "id": 5859,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 5763,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:4"
       },
@@ -1500,23 +1468,12 @@
             "src": "245:22:4"
           }
         ],
-        "contractDependencies": [
-          8997,
-          9200,
-          9442,
-          9901
-        ],
+        "contractDependencies": [8997, 9200, 9442, 9901],
         "contractKind": "contract",
         "documentation": "@title CTokenManager\n@author Sablier",
         "fullyImplemented": true,
         "id": 5858,
-        "linearizedBaseContracts": [
-          5858,
-          9200,
-          9442,
-          9901,
-          8997
-        ],
+        "linearizedBaseContracts": [5858, 9200, 9442, 9901, 8997],
         "name": "CTokenManager",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1792,10 +1749,7 @@
                       "id": 5792,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "968:7:4",
                       "typeDescriptions": {
@@ -1940,10 +1894,7 @@
                       "id": 5800,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1035:7:4",
                       "typeDescriptions": {
@@ -2268,10 +2219,7 @@
                       "id": 5827,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9920,
                       "src": "1517:7:4",
                       "typeDescriptions": {

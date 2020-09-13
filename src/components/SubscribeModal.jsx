@@ -1,8 +1,8 @@
-import React, { useState, useRef } from 'react';
-import { connect } from 'react-redux';
-import { userActions } from '../actions';
+import React, {useState, useRef} from 'react';
+import {connect} from 'react-redux';
+import {userActions} from '../actions';
 import '../assets/scss/subscribeModal.scss';
-import { getTokenSymbol } from '../helpers';
+import {getTokenSymbol} from '../helpers';
 
 const SubscribeModal = ({
   createSubscription,

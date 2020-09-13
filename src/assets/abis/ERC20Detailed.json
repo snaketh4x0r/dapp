@@ -274,33 +274,18 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/TestnetDAI.sol",
     "exportedSymbols": {
-      "ERC20": [
-        1010
-      ],
-      "ERC20Detailed": [
-        1066
-      ],
-      "IERC20": [
-        503
-      ],
-      "SafeMath": [
-        630
-      ],
-      "TestnetDAI": [
-        1098
-      ]
+      "ERC20": [1010],
+      "ERC20Detailed": [1066],
+      "IERC20": [503],
+      "SafeMath": [630],
+      "TestnetDAI": [1098]
     },
     "id": 1099,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 436,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "199:24:2"
       },
@@ -311,9 +296,7 @@
         "documentation": "@title ERC20 interface\n@dev see https://eips.ethereum.org/EIPS/eip-20",
         "fullyImplemented": false,
         "id": 503,
-        "linearizedBaseContracts": [
-          503
-        ],
+        "linearizedBaseContracts": [503],
         "name": "IERC20",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1115,12 +1098,7 @@
       },
       {
         "id": 504,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "1019:24:2"
       },
@@ -1131,9 +1109,7 @@
         "documentation": "@title SafeMath\n@dev Unsigned math operations with safety checks that revert on error",
         "fullyImplemented": true,
         "id": 630,
-        "linearizedBaseContracts": [
-          630
-        ],
+        "linearizedBaseContracts": [630],
         "name": "SafeMath",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1231,9 +1207,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    521
-                  ],
+                  "assignments": [521],
                   "declarations": [
                     {
                       "constant": false,
@@ -1403,10 +1377,7 @@
                       "id": 526,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "1627:7:2",
                       "typeDescriptions": {
@@ -1629,10 +1600,7 @@
                       "id": 546,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "1945:7:2",
                       "typeDescriptions": {
@@ -1659,9 +1627,7 @@
                   "src": "1945:14:2"
                 },
                 {
-                  "assignments": [
-                    553
-                  ],
+                  "assignments": [553],
                   "declarations": [
                     {
                       "constant": false,
@@ -1931,10 +1897,7 @@
                       "id": 570,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "2308:7:2",
                       "typeDescriptions": {
@@ -1961,9 +1924,7 @@
                   "src": "2308:15:2"
                 },
                 {
-                  "assignments": [
-                    577
-                  ],
+                  "assignments": [577],
                   "declarations": [
                     {
                       "constant": false,
@@ -2174,9 +2135,7 @@
               "src": "2526:78:2",
               "statements": [
                 {
-                  "assignments": [
-                    595
-                  ],
+                  "assignments": [595],
                   "declarations": [
                     {
                       "constant": false,
@@ -2314,10 +2273,7 @@
                       "id": 600,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "2563:7:2",
                       "typeDescriptions": {
@@ -2540,10 +2496,7 @@
                       "id": 618,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "2836:7:2",
                       "typeDescriptions": {
@@ -2733,12 +2686,7 @@
       },
       {
         "id": 631,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "2948:24:2"
       },
@@ -2763,17 +2711,12 @@
             "src": "3538:6:2"
           }
         ],
-        "contractDependencies": [
-          503
-        ],
+        "contractDependencies": [503],
         "contractKind": "contract",
         "documentation": "@title Standard ERC20 token\n * @dev Implementation of the basic standard token.\nhttps://eips.ethereum.org/EIPS/eip-20\nOriginally based on code by FirstBlood:\nhttps://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol\n * This implementation emits additional Approval events, allowing applications to reconstruct the allowance status for\nall accounts just by listening to said events. Note that this isn't required by the specification, and other\ncompliant implementations may not do it.",
         "fullyImplemented": true,
         "id": 1010,
-        "linearizedBaseContracts": [
-          1010,
-          503
-        ],
+        "linearizedBaseContracts": [1010, 503],
         "name": "ERC20",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -5140,10 +5083,7 @@
                       "id": 820,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "8187:7:2",
                       "typeDescriptions": {
@@ -5778,10 +5718,7 @@
                       "id": 864,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "8773:7:2",
                       "typeDescriptions": {
@@ -6378,10 +6315,7 @@
                       "id": 906,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "9262:7:2",
                       "typeDescriptions": {
@@ -6978,10 +6912,7 @@
                       "id": 950,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "9808:7:2",
                       "typeDescriptions": {
@@ -7110,10 +7041,7 @@
                       "id": 958,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "9848:7:2",
                       "typeDescriptions": {
@@ -7825,12 +7753,7 @@
       },
       {
         "id": 1011,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "10616:24:2"
       },
@@ -7855,17 +7778,12 @@
             "src": "10902:6:2"
           }
         ],
-        "contractDependencies": [
-          503
-        ],
+        "contractDependencies": [503],
         "contractKind": "contract",
         "documentation": "@title ERC20Detailed token\n@dev The decimals are only for visualization purposes.\nAll the operations are done using the smallest and indivisible token unit,\njust as on Ethereum all the operations are done in wei.",
         "fullyImplemented": false,
         "id": 1066,
-        "linearizedBaseContracts": [
-          1066,
-          503
-        ],
+        "linearizedBaseContracts": [1066, 503],
         "name": "ERC20Detailed",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -8440,12 +8358,7 @@
       },
       {
         "id": 1067,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "11644:24:2"
       },
@@ -8488,21 +8401,12 @@
             "src": "11890:13:2"
           }
         ],
-        "contractDependencies": [
-          503,
-          1010,
-          1066
-        ],
+        "contractDependencies": [503, 1010, 1066],
         "contractKind": "contract",
         "documentation": "@title Testnet Dai\n@dev ERC20 minting logic\nSourced from OpenZeppelin and thoroughly butchered to remove security guards.\nAnybody can mint - STRICTLY FOR TEST PURPOSES",
         "fullyImplemented": true,
         "id": 1098,
-        "linearizedBaseContracts": [
-          1098,
-          1066,
-          1010,
-          503
-        ],
+        "linearizedBaseContracts": [1098, 1066, 1010, 503],
         "name": "TestnetDAI",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -8832,33 +8736,18 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/TestnetDAI.sol",
     "exportedSymbols": {
-      "ERC20": [
-        1010
-      ],
-      "ERC20Detailed": [
-        1066
-      ],
-      "IERC20": [
-        503
-      ],
-      "SafeMath": [
-        630
-      ],
-      "TestnetDAI": [
-        1098
-      ]
+      "ERC20": [1010],
+      "ERC20Detailed": [1066],
+      "IERC20": [503],
+      "SafeMath": [630],
+      "TestnetDAI": [1098]
     },
     "id": 1099,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 436,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "199:24:2"
       },
@@ -8869,9 +8758,7 @@
         "documentation": "@title ERC20 interface\n@dev see https://eips.ethereum.org/EIPS/eip-20",
         "fullyImplemented": false,
         "id": 503,
-        "linearizedBaseContracts": [
-          503
-        ],
+        "linearizedBaseContracts": [503],
         "name": "IERC20",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -9673,12 +9560,7 @@
       },
       {
         "id": 504,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "1019:24:2"
       },
@@ -9689,9 +9571,7 @@
         "documentation": "@title SafeMath\n@dev Unsigned math operations with safety checks that revert on error",
         "fullyImplemented": true,
         "id": 630,
-        "linearizedBaseContracts": [
-          630
-        ],
+        "linearizedBaseContracts": [630],
         "name": "SafeMath",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -9789,9 +9669,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    521
-                  ],
+                  "assignments": [521],
                   "declarations": [
                     {
                       "constant": false,
@@ -9961,10 +9839,7 @@
                       "id": 526,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "1627:7:2",
                       "typeDescriptions": {
@@ -10187,10 +10062,7 @@
                       "id": 546,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "1945:7:2",
                       "typeDescriptions": {
@@ -10217,9 +10089,7 @@
                   "src": "1945:14:2"
                 },
                 {
-                  "assignments": [
-                    553
-                  ],
+                  "assignments": [553],
                   "declarations": [
                     {
                       "constant": false,
@@ -10489,10 +10359,7 @@
                       "id": 570,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "2308:7:2",
                       "typeDescriptions": {
@@ -10519,9 +10386,7 @@
                   "src": "2308:15:2"
                 },
                 {
-                  "assignments": [
-                    577
-                  ],
+                  "assignments": [577],
                   "declarations": [
                     {
                       "constant": false,
@@ -10732,9 +10597,7 @@
               "src": "2526:78:2",
               "statements": [
                 {
-                  "assignments": [
-                    595
-                  ],
+                  "assignments": [595],
                   "declarations": [
                     {
                       "constant": false,
@@ -10872,10 +10735,7 @@
                       "id": 600,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "2563:7:2",
                       "typeDescriptions": {
@@ -11098,10 +10958,7 @@
                       "id": 618,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "2836:7:2",
                       "typeDescriptions": {
@@ -11291,12 +11148,7 @@
       },
       {
         "id": 631,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "2948:24:2"
       },
@@ -11321,17 +11173,12 @@
             "src": "3538:6:2"
           }
         ],
-        "contractDependencies": [
-          503
-        ],
+        "contractDependencies": [503],
         "contractKind": "contract",
         "documentation": "@title Standard ERC20 token\n * @dev Implementation of the basic standard token.\nhttps://eips.ethereum.org/EIPS/eip-20\nOriginally based on code by FirstBlood:\nhttps://github.com/Firstbloodio/token/blob/master/smart_contract/FirstBloodToken.sol\n * This implementation emits additional Approval events, allowing applications to reconstruct the allowance status for\nall accounts just by listening to said events. Note that this isn't required by the specification, and other\ncompliant implementations may not do it.",
         "fullyImplemented": true,
         "id": 1010,
-        "linearizedBaseContracts": [
-          1010,
-          503
-        ],
+        "linearizedBaseContracts": [1010, 503],
         "name": "ERC20",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -13698,10 +13545,7 @@
                       "id": 820,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "8187:7:2",
                       "typeDescriptions": {
@@ -14336,10 +14180,7 @@
                       "id": 864,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "8773:7:2",
                       "typeDescriptions": {
@@ -14936,10 +14777,7 @@
                       "id": 906,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "9262:7:2",
                       "typeDescriptions": {
@@ -15536,10 +15374,7 @@
                       "id": 950,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "9808:7:2",
                       "typeDescriptions": {
@@ -15668,10 +15503,7 @@
                       "id": 958,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        5314,
-                        5315
-                      ],
+                      "overloadedDeclarations": [5314, 5315],
                       "referencedDeclaration": 5314,
                       "src": "9848:7:2",
                       "typeDescriptions": {
@@ -16383,12 +16215,7 @@
       },
       {
         "id": 1011,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "10616:24:2"
       },
@@ -16413,17 +16240,12 @@
             "src": "10902:6:2"
           }
         ],
-        "contractDependencies": [
-          503
-        ],
+        "contractDependencies": [503],
         "contractKind": "contract",
         "documentation": "@title ERC20Detailed token\n@dev The decimals are only for visualization purposes.\nAll the operations are done using the smallest and indivisible token unit,\njust as on Ethereum all the operations are done in wei.",
         "fullyImplemented": false,
         "id": 1066,
-        "linearizedBaseContracts": [
-          1066,
-          503
-        ],
+        "linearizedBaseContracts": [1066, 503],
         "name": "ERC20Detailed",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -16998,12 +16820,7 @@
       },
       {
         "id": 1067,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "^", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "11644:24:2"
       },
@@ -17046,21 +16863,12 @@
             "src": "11890:13:2"
           }
         ],
-        "contractDependencies": [
-          503,
-          1010,
-          1066
-        ],
+        "contractDependencies": [503, 1010, 1066],
         "contractKind": "contract",
         "documentation": "@title Testnet Dai\n@dev ERC20 minting logic\nSourced from OpenZeppelin and thoroughly butchered to remove security guards.\nAnybody can mint - STRICTLY FOR TEST PURPOSES",
         "fullyImplemented": true,
         "id": 1098,
-        "linearizedBaseContracts": [
-          1098,
-          1066,
-          1010,
-          503
-        ],
+        "linearizedBaseContracts": [1098, 1066, 1010, 503],
         "name": "TestnetDAI",
         "nodeType": "ContractDefinition",
         "nodes": [

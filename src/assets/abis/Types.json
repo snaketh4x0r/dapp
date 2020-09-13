@@ -11,20 +11,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/Types.sol",
     "exportedSymbols": {
-      "Types": [
-        8031
-      ]
+      "Types": [8031]
     },
     "id": 8032,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8001,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:6"
       },
@@ -46,9 +40,7 @@
         "documentation": "@title Sablier Types\n@author Sablier",
         "fullyImplemented": true,
         "id": 8031,
-        "linearizedBaseContracts": [
-          8031
-        ],
+        "linearizedBaseContracts": [8031],
         "name": "Types",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -431,20 +423,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/Types.sol",
     "exportedSymbols": {
-      "Types": [
-        8031
-      ]
+      "Types": [8031]
     },
     "id": 8032,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 8001,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:6"
       },
@@ -466,9 +452,7 @@
         "documentation": "@title Sablier Types\n@author Sablier",
         "fullyImplemented": true,
         "id": 8031,
-        "linearizedBaseContracts": [
-          8031
-        ],
+        "linearizedBaseContracts": [8031],
         "name": "Types",
         "nodeType": "ContractDefinition",
         "nodes": [

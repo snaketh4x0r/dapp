@@ -91,20 +91,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/lifecycle/OwnableWithoutRenounce.sol",
     "exportedSymbols": {
-      "OwnableWithoutRenounce": [
-        9200
-      ]
+      "OwnableWithoutRenounce": [9200]
     },
     "id": 9201,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 9099,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:13"
       },
@@ -169,19 +163,12 @@
             "src": "841:7:13"
           }
         ],
-        "contractDependencies": [
-          9442,
-          9901
-        ],
+        "contractDependencies": [9442, 9901],
         "contractKind": "contract",
         "documentation": "@title OwnableWithoutRenounce\n@author Sablier\n@dev Fork of OpenZeppelin's Ownable contract, which provides basic authorization control, but with\n the `renounceOwnership` function removed to avoid fat-finger errors.\n We inherit from `Context` to keep this contract compatible with the Gas Station Network.\nSee https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/blob/master/contracts/ownership/Ownable.sol\nSee https://forum.openzeppelin.com/t/contract-request-ownable-without-renounceownership/1400\nSee https://docs.openzeppelin.com/contracts/2.x/gsn#_msg_sender_and_msg_data",
         "fullyImplemented": true,
         "id": 9200,
-        "linearizedBaseContracts": [
-          9200,
-          9442,
-          9901
-        ],
+        "linearizedBaseContracts": [9200, 9442, 9901],
         "name": "OwnableWithoutRenounce",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -655,10 +642,7 @@
                       "id": 9142,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9919,
                       "src": "1499:7:13",
                       "typeDescriptions": {
@@ -1076,10 +1060,7 @@
                       "id": 9177,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9919,
                       "src": "2202:7:13",
                       "typeDescriptions": {
@@ -1340,20 +1321,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/lifecycle/OwnableWithoutRenounce.sol",
     "exportedSymbols": {
-      "OwnableWithoutRenounce": [
-        9200
-      ]
+      "OwnableWithoutRenounce": [9200]
     },
     "id": 9201,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 9099,
-        "literals": [
-          "solidity",
-          "0.5",
-          ".11"
-        ],
+        "literals": ["solidity", "0.5", ".11"],
         "nodeType": "PragmaDirective",
         "src": "0:23:13"
       },
@@ -1418,19 +1393,12 @@
             "src": "841:7:13"
           }
         ],
-        "contractDependencies": [
-          9442,
-          9901
-        ],
+        "contractDependencies": [9442, 9901],
         "contractKind": "contract",
         "documentation": "@title OwnableWithoutRenounce\n@author Sablier\n@dev Fork of OpenZeppelin's Ownable contract, which provides basic authorization control, but with\n the `renounceOwnership` function removed to avoid fat-finger errors.\n We inherit from `Context` to keep this contract compatible with the Gas Station Network.\nSee https://github.com/OpenZeppelin/openzeppelin-contracts-ethereum-package/blob/master/contracts/ownership/Ownable.sol\nSee https://forum.openzeppelin.com/t/contract-request-ownable-without-renounceownership/1400\nSee https://docs.openzeppelin.com/contracts/2.x/gsn#_msg_sender_and_msg_data",
         "fullyImplemented": true,
         "id": 9200,
-        "linearizedBaseContracts": [
-          9200,
-          9442,
-          9901
-        ],
+        "linearizedBaseContracts": [9200, 9442, 9901],
         "name": "OwnableWithoutRenounce",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1904,10 +1872,7 @@
                       "id": 9142,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9919,
                       "src": "1499:7:13",
                       "typeDescriptions": {
@@ -2325,10 +2290,7 @@
                       "id": 9177,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        9919,
-                        9920
-                      ],
+                      "overloadedDeclarations": [9919, 9920],
                       "referencedDeclaration": 9919,
                       "src": "2202:7:13",
                       "typeDescriptions": {

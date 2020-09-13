@@ -207,21 +207,14 @@
   "ast": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/compound/EIP20Interface.sol",
     "exportedSymbols": {
-      "EIP20Interface": [
-        3680
-      ]
+      "EIP20Interface": [3680]
     },
     "id": 3681,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 3613,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".8"
-        ],
+        "literals": ["solidity", "^", "0.5", ".8"],
         "nodeType": "PragmaDirective",
         "src": "0:23:8"
       },
@@ -232,9 +225,7 @@
         "documentation": "@title ERC 20 Token Standard Interface\n https://eips.ethereum.org/EIPS/eip-20",
         "fullyImplemented": false,
         "id": 3680,
-        "linearizedBaseContracts": [
-          3680
-        ],
+        "linearizedBaseContracts": [3680],
         "name": "EIP20Interface",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -1040,21 +1031,14 @@
   "legacyAST": {
     "absolutePath": "/media/dhiraj/code/hackfs/shopfs/dapp/contracts/sablier/compound/EIP20Interface.sol",
     "exportedSymbols": {
-      "EIP20Interface": [
-        3680
-      ]
+      "EIP20Interface": [3680]
     },
     "id": 3681,
     "nodeType": "SourceUnit",
     "nodes": [
       {
         "id": 3613,
-        "literals": [
-          "solidity",
-          "^",
-          "0.5",
-          ".8"
-        ],
+        "literals": ["solidity", "^", "0.5", ".8"],
         "nodeType": "PragmaDirective",
         "src": "0:23:8"
       },
@@ -1065,9 +1049,7 @@
         "documentation": "@title ERC 20 Token Standard Interface\n https://eips.ethereum.org/EIPS/eip-20",
         "fullyImplemented": false,
         "id": 3680,
-        "linearizedBaseContracts": [
-          3680
-        ],
+        "linearizedBaseContracts": [3680],
         "name": "EIP20Interface",
         "nodeType": "ContractDefinition",
         "nodes": [
