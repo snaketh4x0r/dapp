@@ -3,28 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "3box": "^1.20.3",
+    "3box-comments-react": "^3.0.5",
+    "@fleekhq/space-client": "^1.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "cids": "^0.8.3",
+    "graphql": "^15.3.0",
+    "history": "^4.10.1",
+    "ipfs-http-client": "^45.0.0",
+    "ipld-dag-cbor": "^0.16.0",
+    "libp2p-pubsub": "0.4.6",
+    "node-sass": "^4.14.1",
+    "profile-hover": "^1.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.3.2",
+    "urql": "^1.10.0",
+    "web3": "^1.2.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ignore-path .gitignore \"./**/*.{ts,tsx,js,jsx}\" --fix",
+    "format": "prettier --ignore-path .gitignore --write \"{*,**/*}.{ts,tsx,js,jsx,json,yml,yaml,md}\""
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
