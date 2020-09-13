@@ -1,0 +1,97 @@
+@import "config";
+
+.filePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 70rem;
+}
+
+.fileItem {
+    display: flex;
+    width: 100%;
+}
+
+.detailsLeftBar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30rem;
+    .fileImage {
+        align-self: center;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 20rem;
+        border-radius: 0.5rem;
+    }
+}
+
+.detailsRightBar {
+    flex: 1;
+    padding: 1rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    span {
+        width: 100%;
+    }
+}
+
+.buyButton,
+.downloadButton,
+.sellerButton {
+    margin-top: 1rem;
+    width: 60%;
+    align-self: center;
+}
+
+.fileTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.filePrice {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #808080;
+}
+
+.labelTitle {
+    margin-top: 0;
+}
+
+.fileSellerContainer {
+    cursor: pointer;
+}
+
+.fileComments {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    .footer_text {
+        flex-direction: column;
+    }
+}
+
+.sellerButton {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    border: solid 2px $red;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    padding: 1rem 1rem;
+}

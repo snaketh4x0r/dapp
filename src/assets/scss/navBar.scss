@@ -1,0 +1,69 @@
+@import "config";
+
+.navBarContainer {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar {
+    width: 100%;
+    max-width: 70rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loading {
+    z-index: 5;
+    height: 3rem;
+    width: 3rem;
+}
+.navBarRight,
+.navBarLeft {
+    display: flex;
+    align-items: center;
+}
+.navBarLogo {
+    display: flex;
+    height: 5rem;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    .logo {
+        height: 100%;
+    }
+}
+.navBarAddress {
+    display: flex;
+    height: 4rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    align-items: center;
+    border: none;
+    .connect {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signInButton {
+        height: 100%;
+        font-size: 1.25rem;
+    }
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1rem;
+    &:hover {
+        color: $red;
+    }
+}

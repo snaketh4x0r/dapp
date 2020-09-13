@@ -1,0 +1,119 @@
+@import "config.scss";
+
+.userPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.coverImage {
+    background-size: cover; 
+    background-position: center;
+    height: 20rem;
+    position: relative;
+}
+
+.profileImage {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    border: 2px solid white;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 10rem;
+    top: -5rem;
+    transform: translateX(-50%);
+}
+
+.mainContent {
+    position: relative;
+    display: flex;
+}
+
+.profileLeftBar {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 7rem;
+    width: 20rem;
+    min-width: 20rem;
+    .name {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .address {
+        margin-top: 0.5rem;
+        font-weight: 600;
+        color: #808080;
+    }
+    .description {
+        margin-top: 1rem;
+        color: #808080;
+    }
+}
+
+.profileRightBar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    .profileTitle {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+
+.profileButton {
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    border: solid 2px $red;
+    border-radius: 0.5rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: opacity 0.2s ease;
+}
+
+.modal {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 2px 8px 3px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
