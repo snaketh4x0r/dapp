@@ -1,5 +1,5 @@
 import React from "react";
-import config from "config";
+import config from "./config";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { configureStore } from "./helpers";

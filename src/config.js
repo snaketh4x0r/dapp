@@ -9,3 +9,5 @@ export const CONFIG = {
     ],
     subgraph: "https://api.thegraph.com/subgraphs/name/shopfs/market-rinkeby"
 };
+
+export default CONFIG;

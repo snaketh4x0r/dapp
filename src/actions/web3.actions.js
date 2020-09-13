@@ -1,6 +1,6 @@
 import Web3 from "web3";
-import config from "config";
-import { alertActions } from "./";
+import config from "../config";
+import { alertActions } from "./alert.actions";
 import { web3Constants } from "../constants";
 import StorageMarket from "../assets/abis/StorageMarketPlace.json";
 

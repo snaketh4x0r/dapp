@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import config from "config";
+import React, { useState } from "react";
+import config from "../config";
 import { connect } from "react-redux";
 import { userActions } from "../actions";
 import loading from "../assets/img/loading.svg";
 import "../assets/scss/sellForm.scss";
 
-const SellForm = ({ sell, uploadAndSellFile, uploadImage, inProgress }) => {
+const SellForm = ({ uploadAndSellFile, uploadImage, inProgress }) => {
     const defaultImage =
         "bafybeihlhbf7oe34dbimsira2c6kezinpcnlt76fud22bv3kupsv4xkfru";
     const defaultAsset = config.priceAssets[0].address;

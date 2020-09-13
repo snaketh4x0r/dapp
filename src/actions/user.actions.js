@@ -1,8 +1,7 @@
-import { alertActions } from "./";
-import config from "config";
+import { alertActions } from "./alert.actions";
+import config from "../config";
 import { userConstants } from "../constants";
 import IERC20 from "../assets/abis/IERC20.json";
-import { epochConversion } from "../helpers";
 import {
     daemonService,
     marketService,
@@ -120,8 +119,8 @@ function uploadAndSellFile(path, metadata, price, priceAddress) {
         try {
             const { account, market, web3 } = getState().web3;
             const priceLimit = await marketService.getPriceLimit(market);
-            const priceInWei = BigInt(price  * 10 ** 18);
-            if (priceInWei >= BigInt(priceLimit)) {
+            const priceInWei = window.BigInt(price  * 10 ** 18);
+            if (priceInWei >= window.BigInt(priceLimit)) {
                 throw `Price must be lower than priceLimit (${priceLimit})`;
             }
 
@@ -135,7 +134,6 @@ function uploadAndSellFile(path, metadata, price, priceAddress) {
                     throw "Space Daemon not running";
                 });
 
-            console.log({ threadInfo });
             const metadataHash = await ipfsService.uploadMetadata({
                 ...metadata,
                 file,
