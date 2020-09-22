@@ -1,4 +1,4 @@
-export const CONFIG = {
+export const config = {
   networkId: 4,
   marketAddress: '0x79520adff8e9c61401b4a8f930fa9de2f2a7d6fd',
   priceAssets: [
@@ -10,4 +10,4 @@ export const CONFIG = {
   subgraph: 'https://api.thegraph.com/subgraphs/name/shopfs/market-rinkeby',
 };
 
-export default CONFIG;
+export default config;
